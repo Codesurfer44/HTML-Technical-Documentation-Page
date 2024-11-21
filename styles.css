@@ -1,0 +1,70 @@
+html {
+  font-size: 10px;
+  background-color: #FEFAE0;/*#283618*/
+  color: #283618;/*#FEFAE0*/
+  box-sizing: border-box;
+  
+}
+h3 {
+  font-size: 2.1rem;
+  margin-top: 5rem;
+}
+header {
+  font-size: 2.6rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 7.5rem;
+}
+
+p, ul, ol, li, .code-example{
+  font-family: arial, sans-serif;
+  font-size: 1.6rem;
+  padding: 0.2rem;
+  list-style-type: none;
+}
+
+ul li:first-of-type, ol li:first-of-type {
+  margin-top: 0.5rem;;
+}
+
+.code-example { /*this part is controlling the window style for code examples*/
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+  height: auto;
+  padding: 2rem;
+  margin: 1rem;
+  background-color: #5c6d4a;
+  border-radius: 10px;
+  color: #fff;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  tab-size: 4;
+  font-family: monospace;
+  overflow-x: auto;
+  }
+
+
+/*Layout styling*/
+.line-break {
+  display: block;
+  margin-top: 1rem;
+}
+
+.indent {
+  margin-left: 2.5rem;
+}
+
+ul.bullet > li {
+list-style-type: disc !important;
+margin-top: 0.5rem ;
+}
+
+ul > li, ol > li {
+  margin-top: 3rem;
+}
+
+pre {
+  margin: 0;
+}
